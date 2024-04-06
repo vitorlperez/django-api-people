@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches / Logs
+*.log
+logs/
+*.swp
+
+# Runtime directories
+__pycache__/
+*.pid
+*.pyc
+*.pyo
+
+# Database
+*.sqlite3
+
+# Static files
+staticfiles/
+.sass-cache/
+
+# Media
+media/
+
+# Secret key
+.env
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python env
+venv/
+env/
+env36/
+.env/
+
+# Dependency directories
+venv/
+env/
+
+# Ignore local settings
+**/local_settings.py
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
