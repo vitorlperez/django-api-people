@@ -1,1 +1,1 @@
-web: gunicorn athenas_test.athenas_test.wsgi:application
+web: sh -c 'cd ./athenas_test/ && gunicorn athenas_test.wsgi:application'
