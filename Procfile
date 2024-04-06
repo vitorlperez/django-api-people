@@ -1,1 +1,1 @@
-web: gunicorn athenas_test.athenas_test.wsgi
+web: gunicorn athenas_test.athenas_test.wsgi:application
