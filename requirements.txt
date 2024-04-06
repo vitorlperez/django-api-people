@@ -16,4 +16,4 @@ SQLAlchemy==1.4.52
 sqlparse==0.4.4
 typing_extensions==4.11.0
 uritemplate==4.1.1
-whitenoise==6.6.0
+whitenoise==5.3.0
