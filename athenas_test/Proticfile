@@ -1,1 +1,0 @@
-web: gunicorn athenas_test.wsgi
