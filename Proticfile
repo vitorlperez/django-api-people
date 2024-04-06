@@ -1,1 +1,1 @@
-web gunicorn athenas_test.wsgi:apllication --log-file -
+web: gunicorn athenas_test.athenas_test.wsgi:apllication --log-file -
