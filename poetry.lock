@@ -85,6 +85,21 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-cors-headers"
+version = "3.14.0"
+description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "django_cors_headers-3.14.0-py3-none-any.whl", hash = "sha256:684180013cc7277bdd8702b80a3c5a4b3fcae4abb2bf134dceb9f5dfe300228e"},
+    {file = "django_cors_headers-3.14.0.tar.gz", hash = "sha256:5fbd58a6fb4119d975754b2bc090f35ec160a8373f276612c675b00e8a138739"},
+]
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
 name = "django-heroku"
 version = "0.3.1"
 description = "This is a Django library for Heroku apps."
@@ -552,4 +567,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "1a0f69b894b4743fa1451104118b6708eeb735834df1ab8150827aedb0bb3f59"
+content-hash = "4b26e8e51fbfc5d99a83f825460d1ac7c2140f736b6c380b017067b58241527a"
